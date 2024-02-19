@@ -1,0 +1,230 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif;
+   }
+header{
+    color: aliceblue;
+     background:black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-size:medium;
+}
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 500;
+}
+header :hover{
+  color: #3498db;
+  }
+.home{
+    width: 100%;
+    background: rgb(241,241,241);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    padding: 30px 12% 0;
+}
+.home-content h3{
+font-size: 42px;
+}
+.home-content h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+.home-content p{
+   font-size: 18px;
+   margin: 25px 0 30px;
+}
+.img-box img{
+    border-radius: 50%;
+    float: left;
+}
+span{
+    color:#FF6347;
+}
+.head {
+    font-size: 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0;
+    padding: 2rem 0 4rem 0;
+    text-align: center;
+  margin-top: 30px;
+  }
+.divbox {
+    font-size: 2rem;
+    text-align: start;
+    padding: 0 2rem 5rem 2rem;
+    width: auto;
+    justify-content:space-around;
+    max-width: 95rem;
+    margin: 0 auto;
+  }
+  #about {
+    background-color:#F0FFFF;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  #about img {
+    
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.1);
+   
+     }
+     #varieties {
+        background-color: #e3e3e3;
+      }
+      .tile {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        background-color: #fafafa;
+        height: 40rem;
+        width: 25rem;
+       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        border-radius: 0.5rem;
+        transition: all 0.2s;
+        padding: 1.5rem;
+        margin: 1.5rem;
+      
+      }
+      tile img {
+        width: 100%;
+        max-width: 70rem;
+        border-radius: 0.5rem;
+      }
+      .tile h4 {
+        font-size: 2rem;
+        font-weight: 600;
+        padding: 1rem 0;
+        color: #e23d3d;
+        margin: 0;
+      }
+      .tile p {
+        font-size:  1rem;
+        padding: 0;
+        margin: 0;
+      }
+      .tile:hover {
+        transform: scale(1.05);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 16px 16px rgba(0, 0, 0, 0.23);
+      }
+.txt-container{
+     font-weight: 200;
+    }  
+  .pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+    .carousel{
+    width: 80%;
+    height: 80vh;
+   margin-bottom: 10px;
+  }
+ 
+h5{
+    font-size: x-large;
+}
+
+.tab{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-spacing: 30px;
+    height: 30rem;
+    width: 25rem;
+    display:flex;
+    background: rgba(255,255,255,0.06);
+    box-shadow: 0 8px 32px 0 rgba(38, 44, 139, 0.37);
+    border-radius: 30px;
+}
+input{
+    box-shadow: inset;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 30px;
+    padding-left: 10px;
+    border-radius: 30px;
+}
+.mail{
+  margin-top: 20px;}
+.inputt{
+    margin-top: 20px;
+    padding: 40px;
+}
+button{
+    margin-top: 20px;
+    outline: none;
+    font-size: 15px;
+    background:transparent;
+    padding: 10px 30px;
+    opacity: .7;
+    border-radius: 10px;
+}
+footer{
+  margin-top: 70px;
+  background: #111;
+}
+.footercon{
+ width: 100%;
+  padding: 70px 30px 20px;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+}
+.icon a{
+  text-decoration: none;
+  padding: 10px;
+  background: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.icon a i{
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+}
+.icon a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+.icon a:hover i{
+  background: white;
+  transition: 0.5s;
+}
+.fossterbottom{
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.fossterbottom p{
+  color: white;
+}
